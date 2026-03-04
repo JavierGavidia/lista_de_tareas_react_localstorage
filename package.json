@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://JavierGavidia.github.io/lista_de_tareas_react_localstorage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
