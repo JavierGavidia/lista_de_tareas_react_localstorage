@@ -1,0 +1,98 @@
+.titulo{
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+}
+
+h2{
+  color: burlywood;
+}
+
+body{
+    padding: 0 10px;
+}
+
+.lista_notas {
+  width: 70%;
+  max-width: 600px;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border: 2px solid orange;
+  border-radius: .5rem;
+  text-align: left;
+}
+
+.lista_notas li {
+    padding: .2rem;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 2px solid orange;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista_notas li span {
+    width: 75%;
+    line-height: 1.15;
+}
+
+.btns_lista{
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    svg{
+        width: 16px;
+        aspect-ratio: 1 / 1;
+        color: rgb(0, 211, 0);
+        cursor: pointer;
+        &.borrar{
+            color: red
+        }
+    }
+}
+
+.editForm{
+    width: 100%;
+    background-color: #f7fffb;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto 10px;
+}
+.inputEditForm{
+    width: 100%;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px
+}
+
+.guardarBtn, .cancelarBtn{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aquamarine;
+    margin-right: 10px;
+    line-height: .8;
+    &:hover{
+        background-color: gray;
+        color: white;
+    }
+}
+.cancelarBtn{
+    background-color: rgb(255, 121, 121);
+}
+
+.completoBtn{
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+    margin-right: 15px;
+    line-height: .8;
+}

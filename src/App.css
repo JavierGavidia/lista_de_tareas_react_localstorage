@@ -1,0 +1,49 @@
+.content-contador > *{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-contador .text-contador {
+  flex-direction: column;
+}
+
+.content-contador .text-contador .numero {
+  padding: .5rem 1rem;
+  min-width: 100px;
+  background-color: white;
+  color: black;
+  margin: 1rem;
+  text-align: center;
+}
+
+.content-contador .btns-contador button {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  background-color: bisque;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.content-contador .btns-contador button > * {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  
+} 
+
+.content-contador .btns-contador button:hover{
+  background-color: blueviolet;
+}
+
+.content-contador .btns-contador button:hover > * {
+  color: white;
+}
+
+#root{
+  text-align: center;
+  padding: 1rem;
+}
